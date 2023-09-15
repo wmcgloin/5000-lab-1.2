@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Column 1\n\n\nColumn 2\n\n\n\n\nipsum lorem\n\n\nipsum lorem\n\n\n\n\nipsum lorem\n\n\nipsum lorem\n\n\n\n\nipsum lorem\n\n\nipsum lorem\n\n\n\n\nipsum lorem\n\n\nipsum lorem\n\n\n\n\nipsum lorem\n\n\nipsum lorem\n\n\n\n\nipsum lorem\n\n\nipsum lorem\n\n\n\n\n\n\n\n\nipsum lorem\nipsum lorem\nipsum lorem\nipsum lorem\nipsum lorem\n\n\n\n\n\nipsum lorem\nipsum lorem\n\nipsum lorem\nipsum lorem\n\n\n\n\n\n\n\n\nLeft Alignment\nCenter Alignment\nRight Alignment\n\n\n\n\nipsum lorem\nipsum lorem\nipsum lorem\n\n\nipsum lorem\nipsum lorem\nipsum lorem\n\n\n\n\n\n\nBayes formula written two ways in latex\n\\[\nP({A } |\n{ B}) =\n\\frac{P({B}\n| { A})\n\\times\nP({A})}{P({B})}\n\\]\n\\[\nP(\\textrm{A } |\n\\textrm{ B}) =\n\\frac{P(\\textrm{B }\n| \\textrm{ A})\n\\times\nP(\\textrm{A})}{P(\\textrm{B})}\n\\]\n\n\n\nHere is a footnote 1. I can type before\nand after the footnote.\n\n\n\nHere are a few quotes from the show Ted Lasso\n\n“Taking on a challenge is a lot like riding a horse, isn’t it? If you’re comfortable while you’re doing it, you’re probably doing it wrong.”  The best we can do is keep asking for help and accepting it when you can. And if you keep on doing that, you’ll always be moving towards better.\n\nThe first quote was said by Ted Lasso while the last quote was said by the character named Higgins.\n\n\n\nHere are some pictures of my dog Roxie. She is 14 years old.\n   \n\n\n\nHere is a funny video on YouTube:\n\n\n\n\nBasic mermaid diagram with code found here2\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\nhere is a mermaid diagram that I altered myself - I only went a couple layers deep\n\n\n\n\nflowchart LR\n A(Plate Appearance in Baseball)\n A --&gt; B{Pitch is thrown}\n B --&gt; C{Strike}\n B --&gt; D{Ball}\n B --&gt; E(Ball in Play)\n C --&gt; C1{Strike}\n C --&gt; D1{Ball}\n C --&gt; E1(Ball in Play)\n D --&gt; C2{Strike}\n D --&gt; D2{Ball}\n D --&gt; E2(Ball in Play)\n C1 --&gt; C3(Strikeout)\n C1 --&gt; D3{Ball}\n C1 --&gt; E3(Ball in Play)\n C1 --&gt; F{Foul Ball}\n D1 --&gt; C4(Strike)\n D1 --&gt; D4{Ball}\n D1 --&gt; E4(Ball in Play)\n C2 --&gt; C5{Strike}\n C2 --&gt; D5{Ball}\n C2 --&gt; E5(Ball in Play)\n D2 --&gt; C6{Strike}\n D2 --&gt; D6{Ball}\n D2 --&gt; E6(Ball in Play)\n\n\n\n\n\n\n\n\nBerrar (2018) says ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem\n\n\n\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#part-4",
+    "href": "index.html#part-4",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Column 1\n\n\nColumn 2\n\n\n\n\nipsum lorem\n\n\nipsum lorem\n\n\n\n\nipsum lorem\n\n\nipsum lorem\n\n\n\n\nipsum lorem\n\n\nipsum lorem\n\n\n\n\nipsum lorem\n\n\nipsum lorem\n\n\n\n\nipsum lorem\n\n\nipsum lorem\n\n\n\n\nipsum lorem\n\n\nipsum lorem\n\n\n\n\n\n\n\n\nipsum lorem\nipsum lorem\nipsum lorem\nipsum lorem\nipsum lorem\n\n\n\n\n\nipsum lorem\nipsum lorem\n\nipsum lorem\nipsum lorem\n\n\n\n\n\n\n\n\nLeft Alignment\nCenter Alignment\nRight Alignment\n\n\n\n\nipsum lorem\nipsum lorem\nipsum lorem\n\n\nipsum lorem\nipsum lorem\nipsum lorem\n\n\n\n\n\n\nBayes formula written two ways in latex\n\\[\nP({A } |\n{ B}) =\n\\frac{P({B}\n| { A})\n\\times\nP({A})}{P({B})}\n\\]\n\\[\nP(\\textrm{A } |\n\\textrm{ B}) =\n\\frac{P(\\textrm{B }\n| \\textrm{ A})\n\\times\nP(\\textrm{A})}{P(\\textrm{B})}\n\\]\n\n\n\nHere is a footnote 1. I can type before\nand after the footnote.\n\n\n\nHere are a few quotes from the show Ted Lasso\n\n“Taking on a challenge is a lot like riding a horse, isn’t it? If you’re comfortable while you’re doing it, you’re probably doing it wrong.”  The best we can do is keep asking for help and accepting it when you can. And if you keep on doing that, you’ll always be moving towards better.\n\nThe first quote was said by Ted Lasso while the last quote was said by the character named Higgins.\n\n\n\nHere are some pictures of my dog Roxie. She is 14 years old.\n   \n\n\n\nHere is a funny video on YouTube:\n\n\n\n\nBasic mermaid diagram with code found here2\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\nhere is a mermaid diagram that I altered myself - I only went a couple layers deep\n\n\n\n\nflowchart LR\n A(Plate Appearance in Baseball)\n A --&gt; B{Pitch is thrown}\n B --&gt; C{Strike}\n B --&gt; D{Ball}\n B --&gt; E(Ball in Play)\n C --&gt; C1{Strike}\n C --&gt; D1{Ball}\n C --&gt; E1(Ball in Play)\n D --&gt; C2{Strike}\n D --&gt; D2{Ball}\n D --&gt; E2(Ball in Play)\n C1 --&gt; C3(Strikeout)\n C1 --&gt; D3{Ball}\n C1 --&gt; E3(Ball in Play)\n C1 --&gt; F{Foul Ball}\n D1 --&gt; C4(Strike)\n D1 --&gt; D4{Ball}\n D1 --&gt; E4(Ball in Play)\n C2 --&gt; C5{Strike}\n C2 --&gt; D5{Ball}\n C2 --&gt; E5(Ball in Play)\n D2 --&gt; C6{Strike}\n D2 --&gt; D6{Ball}\n D2 --&gt; E6(Ball in Play)\n\n\n\n\n\n\n\n\nBerrar (2018) says ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem"
+  },
+  {
+    "objectID": "index.html#this-is-a-quarto-website.",
+    "href": "index.html#this-is-a-quarto-website.",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem↩︎\nhttps://quarto.org/docs/authoring/diagrams.html↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#citation",
+    "href": "slides/slides.html#citation",
+    "title": "Slides",
+    "section": "Citation",
+    "text": "Citation\n\nipsum lorem\nhere we can see that Berrar (2018) says blah blah blah"
+  },
+  {
+    "objectID": "slides/slides.html#side-by-side-images",
+    "href": "slides/slides.html#side-by-side-images",
+    "title": "Slides",
+    "section": "side-by-side images",
+    "text": "side-by-side images"
+  },
+  {
+    "objectID": "slides/slides.html#image-as-a-background",
+    "href": "slides/slides.html#image-as-a-background",
+    "title": "Slides",
+    "section": "Image as a background",
+    "text": "Image as a background"
+  },
+  {
+    "objectID": "slides/slides.html#python-code-cell",
+    "href": "slides/slides.html#python-code-cell",
+    "title": "Slides",
+    "section": "Python Code Cell",
+    "text": "Python Code Cell\nCode:\n#| echo: true\n#| code-fold: true\n#| code-summary: \"expand for full code\"\nimport seaborn as sns\nimport matplotlib.pyplot as plt\ndf = sns.load_dataset(\"penguins\")\nsns.set_theme(style = 'white', palette = 'Pastel1')\nFS = 18\ng = sns.jointplot(data = df, x = \"flipper_length_mm\", y= \"bill_length_mm\", hue = \"species\", s = 150)\ng.ax_joint.set_xlabel(\"Penguin flipper length (mm)\", fontsize = FS)\ng.ax_joint.set_ylabel(\"Penguin bill length (mm)\", fontsize = FS)\ng.ax_joint.tick_params(axis = \"both\", which = \"major\", labelsize = FS)\nplt.savefig('plot_2.pdf', bbox_inches = \"tight\")\n\n\nCode\nimport seaborn as sns\nimport matplotlib.pyplot as plt\ndf = sns.load_dataset(\"penguins\")\nsns.set_theme(style = 'white', palette = 'Pastel1')\nFS = 18\ng = sns.jointplot(data = df, x = \"flipper_length_mm\", y= \"bill_length_mm\", hue = \"species\", s = 150)\ng.ax_joint.set_xlabel(\"Penguin flipper length (mm)\", fontsize = FS)\ng.ax_joint.set_ylabel(\"Penguin bill length (mm)\", fontsize = FS)\ng.ax_joint.tick_params(axis = \"both\", which = \"major\", labelsize = FS)\nplt.savefig('plot_2.pdf', bbox_inches = \"tight\")\n\n\n\n\n\n\n\n\n\nBerrar, Daniel. 2018. “Bayes’ Theorem and Naive Bayes Classifier.” Encyclopedia of Bioinformatics and Computational Biology: ABC of Bioinformatics 403: 412."
+  }
+]

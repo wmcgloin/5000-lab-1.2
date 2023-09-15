@@ -1,0 +1,178 @@
+---
+title: "simple_quarto_website"
+format:
+    html:
+        toc: true
+bibliography: reference.bib
+---
+
+# Lab 1.2
+
+## Part 4
+
+### two columns
+
+<style type="text/css">
+  td {
+    padding: 0 15px;
+  }
+</style>
+
+<table>
+ <tr>
+    <td><b style = 'font-size:20px'>Column 1</b></td>
+    <td><b style = 'font-size:20px'>Column 2</b></td>
+ </tr>
+ <tr>
+    <td>ipsum lorem</td>
+    <td>ipsum lorem</td>
+ </tr>
+  <tr>
+    <td>ipsum lorem</td>
+    <td>ipsum lorem</td>
+ </tr>
+  <tr>
+    <td>ipsum lorem</td>
+    <td>ipsum lorem</td>
+ </tr>
+  <tr>
+    <td>ipsum lorem</td>
+    <td>ipsum lorem</td>
+ </tr>
+   <tr>
+    <td>ipsum lorem</td>
+    <td>ipsum lorem</td>
+ </tr>
+   <tr>
+    <td>ipsum lorem</td>
+    <td>ipsum lorem</td>
+ </tr>
+ </table>
+
+### bulleted list
+
+* ipsum lorem
+* ipsum lorem
++ ipsum lorem
++ ipsum lorem
+* ipsum lorem
+
+### numbered list
+
+1. ipsum lorem
+2. ipsum lorem
+    i) ipsum lorem
+    ii) ipsum lorem
+
+### markdown table
+
+| Left Alignment      | Center Alignment | Right Alignment     |
+| :---                |    :----:        |          ---: |
+| ipsum lorem         | ipsum lorem      | ipsum lorem   |
+| ipsum lorem   | ipsum lorem       | ipsum lorem      |
+
+### inline-math LaTex equation
+
+Bayes formula written two ways in latex
+
+$$
+P({A } |
+{ B}) = 
+\frac{P({B}
+| { A})
+\times
+P({A})}{P({B})}
+$$
+
+$$
+P(\textrm{A } |
+\textrm{ B}) = 
+\frac{P(\textrm{B }
+| \textrm{ A})
+\times
+P(\textrm{A})}{P(\textrm{B})}
+$$
+
+### footnote
+
+Here is a footnote [^1]. I can type before
+
+[^1]: ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+
+and after the footnote. 
+
+### quotes
+
+Here are a few quotes from the show Ted Lasso
+
+> "Taking on a challenge is a lot like riding a horse, isn't it? If you're comfortable while you're doing it, you're probably doing it wrong."
+<br></br>
+> The best we can do is keep asking for help and accepting it when you can. And if you keep on doing that, you'll always be moving towards better.
+
+The first quote was said by Ted Lasso while the last quote was said by the character named Higgins.
+
+### images
+
+Here are some pictures of my dog Roxie. She is 14 years old.
+
+![My dog Roxie playing in the snow](./images/IMG_0161.JPG)
+![My dog Roxie playing in her pool](./images/IMG_3013.jpeg)
+![My dog Roxie playing in the sprinkler](./images/IMG_7874.jpeg)
+![My dog Roxie taking a bath](./images/IMG_7898.jpeg)
+
+### videos
+
+Here is a funny video on YouTube:
+{{< video https://www.youtube.com/watch?v=fNS4lecOaAc >}}
+
+### mermaid diagram
+
+Basic mermaid diagram with code found here[^2]
+
+[^2]: https://quarto.org/docs/authoring/diagrams.html
+
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+here is a mermaid diagram that I altered myself - I only went a couple layers deep
+
+```{mermaid}
+flowchart LR
+ A(Plate Appearance in Baseball)
+ A --> B{Pitch is thrown}
+ B --> C{Strike}
+ B --> D{Ball}
+ B --> E(Ball in Play)
+ C --> C1{Strike}
+ C --> D1{Ball}
+ C --> E1(Ball in Play)
+ D --> C2{Strike}
+ D --> D2{Ball}
+ D --> E2(Ball in Play)
+ C1 --> C3(Strikeout)
+ C1 --> D3{Ball}
+ C1 --> E3(Ball in Play)
+ C1 --> F{Foul Ball}
+ D1 --> C4(Strike)
+ D1 --> D4{Ball}
+ D1 --> E4(Ball in Play)
+ C2 --> C5{Strike}
+ C2 --> D5{Ball}
+ C2 --> E5(Ball in Play)
+ D2 --> C6{Strike}
+ D2 --> D6{Ball}
+ D2 --> E6(Ball in Play)
+```
+
+### citation from my .bib file
+
+@berrar2018bayes says ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem 
+
+## This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
